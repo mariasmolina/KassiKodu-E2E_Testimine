@@ -9,7 +9,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.env
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -417,4 +416,4 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-kassikodu-e2e/node_modules
+node_modules
