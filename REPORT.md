@@ -1,4 +1,3 @@
-```markdown
 # KassiKodu E2E Testiplaan
 
 Alljärgnevad testid kontrollivad peamisi kasutaja tegevusi rakenduses *KassiKodu*.  
