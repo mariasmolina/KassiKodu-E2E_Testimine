@@ -1,62 +1,37 @@
-```markdown
-# KassiKodu E2E Testiplaan
+# KassiKodu E2E Testimise aruanne
 
-Alljärgnevad testid kontrollivad peamisi kasutaja tegevusi rakenduses *KassiKodu*.  
-Eesmärk on veenduda, et kasutaja saab sisse logida, registreeruda, hallata loomi ja otsida andmeid ootuspäraselt.  
-Iga stsenaarium on sõltumatu ning loob ja kustutab oma andmed.
+Testid viidi läbi Playwrighti abil puhtas keskkonnas.  
+Allpool on kokkuvõte toimivatest ja probleemsetest osadest.
 
 ---
 
-### 1. Sisselogimine ja väljalogimine
-- **Algseis:** Kasutaja on sisselogimislehel.  
-- **Tegevus:** Sisestab õiged andmed ja vajutab „Logi sisse“.  
-- **Ootus:** Kasutaja pääseb avalehele ja näeb oma nime. Logides välja, jõuab ta sisselogimislehele tagasi.
+## ✅ Mis töötab
+
+1. Sisselogimine ja väljalogimine toimivad ootuspäraselt.  
+2. Uue kasutaja registreerimine õnnestub ja andmed salvestatakse.  
+3. Loomade lisamine, muutmine ja kustutamine töötab ilma tõrgeteta.  
+4. Kasutaja õiguste süsteem piirab juurdepääsu korrektsetele lehtedele.  
+5. Loomade peitmine/kuvamine muudab vaadet reaalajas.  
+6. Toidu otsing ja sorteerimine annavad stabiilseid tulemusi.  
+7. Testide käivitamine on korduv ja ei sõltu varasematest andmetest.
 
 ---
 
-### 2. Vale parool
-- **Algseis:** Kasutaja on sisselogimislehel.  
-- **Tegevus:** Sisestab vale parooli.  
-- **Ootus:** Kuvatakse veateade ja sisselogimine ebaõnnestub.
+## ⚠️ Mis ei tööta
+
+
 
 ---
 
-### 3. Uue kasutaja registreerimine
-- **Algseis:** Kasutaja avab registreerimisvormi.  
-- **Tegevus:** Täidab väljad ja esitab vormi.  
-- **Ootus:** Kasutaja konto luuakse ja kuvatakse teade „Registreerimine õnnestus“.
+## 📸 Lisad
+
+- Ekraanipilt töötavate testide kohta
+
+<img width="581" height="922" alt="Playwright_tests_passed" src="https://github.com/user-attachments/assets/ed8f286f-f9ea-4b82-a370-5897a0e0afa2" />
 
 ---
 
-### 4. Kasutaja õiguste kontroll
-- **Algseis:** Kasutaja on sisseloginud tavalise kasutajana.  
-- **Tegevus:** Püüab avada administraatori lehe.  
-- **Ootus:** Kuvatakse teade „Ligipääs keelatud“ või suunatakse tagasi avalehele.
+## 📊 Kokkuvõte
 
----
-
-### 5. Looma lisamine, muutmine ja kustutamine
-- **Algseis:** Kasutaja on loomade nimekirja lehel.  
-- **Tegevus:** Lisab uue looma, muudab andmeid ja kustutab kirje.  
-- **Ootus:** Kõik muudatused kajastuvad nimekirjas ning kustutatud kirje kaob.
-
----
-
-### 6. Loomade peitmine ja kuvamine
-- **Algseis:** Kasutaja on loomade nimekirja lehel.  
-- **Tegevus:** Märgib looma nähtamatuks ja seejärel nähtavaks.  
-- **Ootus:** Peidetud loom ei kuvata ning taasnähtav loom ilmub loendisse tagasi.
-
----
-
-### 7. Töötajate andmete muutmise tingimused
-- **Algseis:** Administraator on sisseloginud.  
-- **Tegevus:** Muudab töötaja andmeid vastavalt reeglitele.  
-- **Ootus:** Muudatused salvestatakse vaid juhul, kui tingimused on täidetud.
-
----
-
-### 8. Toidu otsimine ja sorteerimine
-- **Algseis:** Kasutaja on toitude lehel.  
-- **Tegevus:** Sisestab otsingusõna ja muudab sorteerimise järjekorda.  
-- **Ootus:** Tulemused filtreeritakse ja sorteeritakse õigesti.
+Kõik põhilised kasutajategevused toimivad ootuspäraselt.  
+Tuvastatud väiksemad vead ei takista rakenduse põhifunktsionaalsust, kuid vajavad tulevikus parandamist.
