@@ -417,3 +417,4 @@ FodyWeavers.xsd
 *.msp
 
 node_modules
+.env
