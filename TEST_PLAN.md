@@ -2,7 +2,12 @@
 
 Alljärgnevad testid kontrollivad peamisi kasutaja tegevusi rakenduses *KassiKodu*.  
 Eesmärk on veenduda, et kasutaja saab sisse logida, registreeruda, hallata loomi ja otsida andmeid ootuspäraselt.  
-Iga stsenaarium on sõltumatu ning loob ja kustutab oma andmed.
+Testiplaan katab olukorrad, kus sisestatakse nii õiged kui ka valed andmed, et kontrollida süsteemi vastuseid ja veateateid.  
+Kontrollitakse, et erinevate rollide (`kasutaja`, `töötaja`, `admin`) õigused toimivad korrektselt ning piiravad ligipääsu vastavalt rollile.  
+Loomade lisamise, muutmise ja kustutamise testid kinnitavad, et andmed salvestuvad ja uuenevad õigesti.  
+Samuti jälgitakse, et loomade peitmine ja kuvamine töötaksid ootuspäraselt.  
+Toiduotsingu ja sorteerimise testid aitavad veenduda, et filtreerimine annab õige tulemuse ja kasutajakogemus on sujuv.  
+Kõik stsenaariumid on sõltumatud — vajalikud andmed luuakse enne iga testi ja eemaldatakse pärast selle lõppu.
 
 ---
 
@@ -59,3 +64,4 @@ Iga stsenaarium on sõltumatu ning loob ja kustutab oma andmed.
 - **Algseis:** Kasutaja on toitude lehel.  
 - **Tegevus:** Sisestab otsingusõna ja muudab sorteerimise järjekorda.  
 - **Ootus:** Tulemused filtreeritakse ja sorteeritakse õigesti.
+
