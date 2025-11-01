@@ -1,6 +1,6 @@
 # KassiKodu E2E Testimine
 
-See repositoorium sisaldab **Playwrighti** abil loodud lõput-lõpuni (E2E) teste rakenduse *KassiKodu* jaoks.  
+See repositoorium sisaldab **Playwrighti** abil loodud lõput-lõpuni (E2E) teste rakenduse [**KassiKODU**](https://mariasmolina24.thkit.ee/phpandmebaas/kasside_varjupaik/index.php) jaoks.  
 Testide eesmärk on kontrollida, et rakenduse põhifunktsioonid (sisselogimine, registreerimine, loomade haldamine, õigused, jms) töötaksid ootuspäraselt.
 - [TEST PLAN](https://github.com/mariasmolina/KassiKodu-E2E_Testimine/blob/main/TEST_PLAN.md)
 - [REPORT](https://github.com/mariasmolina/KassiKodu-E2E_Testimine/blob/main/REPORT.md)
@@ -127,3 +127,4 @@ Iga test kontrollib ühte kasutaja tegevust, näiteks:
 - toiduotsing ja sorteerimine.  
 
 Kõik testid on **sõltumatud ja korduvkäivad** — vajalikud andmed luuakse enne iga testi ja eemaldatakse pärast seda.
+
